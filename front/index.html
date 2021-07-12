@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries API</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="form">
+            <input type="text" id="userSearchValue" class="inputTe"/>
+            <button id="btnShowData" class="btn">Show Data</button>
+        </div>
+        <div class="container-2">
+            <div>
+                <input type="radio" id="country" name="drone" value="country"
+                       checked>
+                <label for="huey">Country</label>
+                <input type="radio" id="region" name="drone" value="region">
+        <label for="region">Region</label>
+        <input list="regions" name="region" id="regionInput" value="">
+        <datalist id="regions">
+            <option value="Africa">
+            <option value="Americas">  
+            <option value="Asia">
+            <option value="Europe">
+            <option value="Oceania">
+        </datalist>
+              </div>
+              
+              <div>
+                <input type="radio" id="capital" name="drone" value="capital">
+                <label for="capital">Capital</label>
+              </div>
+
+        </div>
+
+        <div class="data">
+            <ul id="list"></ul>
+        </div>
+
+          
+          <!-- <div>
+            <input type="radio" id="louie" name="drone" value="louie">
+            <label for="louie">Louie</label>
+          </div> -->
+          
+    </div>
+    
+    <script src="./jquery.js"></script>
+    <script src="./js/script.js"></script>
+
+
+    <!-- <script src="../server.js"> </script> -->
+</body>
+</html>
